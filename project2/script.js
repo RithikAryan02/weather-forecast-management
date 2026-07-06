@@ -9,13 +9,13 @@ const dates = document.querySelector('.todayDates');
 const times = document.getElementById('todayTime');
 let date = new Date();
 
-// Function work when user input the city name
+
 form.addEventListener('submit', function (e) {
 
-    // preventDefault() to stop page reload
+    
     e.preventDefault();
 
-    // Updating the city name
+    
     let city = cityName.value;
     const myWeatherContainer = document.querySelector('.weatherContainer');
     const apiID = `931f131dde3f4ae2fcbc3289fc646471`;
